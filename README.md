@@ -1,18 +1,41 @@
-# React + Vite
+# IP Subnet Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive IPv4 subnet calculator built with React and Vite.  
+It helps users quickly calculate subnet details such as network address, broadcast address, usable host range, total hosts, and subnet mask.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Demo](https://ip-subnet-calculator-delta.vercel.app/)
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Calculate subnet details from an IPv4 address and CIDR
+- Display:
+  - IP Address
+  - Network Address
+  - Broadcast Address
+  - Usable Host IP Range
+  - First Usable Host
+  - Last Usable Host
+  - Total Number of Hosts
+  - Number of Usable Hosts
+  - Subnet Mask
+  - CIDR Notation
+- Dropdown selection for subnet mask and CIDR
+- Click any result field to copy its value to the clipboard
+- Input validation for IPv4 addresses
+- Responsive dark-themed user interface
 
-Note: This will impact Vite dev & build performances.
+## Built With
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+
+_Add a screenshot of the app here if you want._
+
+```bash
+public/screenshot.png
