@@ -33,9 +33,4 @@ It helps users quickly calculate subnet details such as network address, broadca
 - JavaScript
 - CSS
 
-## Screenshot
 
-_Add a screenshot of the app here if you want._
-
-```bash
-public/screenshot.png
